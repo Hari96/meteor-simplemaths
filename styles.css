@@ -1,0 +1,37 @@
+.left-num, .right-num {
+  font-size: 80px;
+}
+
+#feedback {
+  border: 2px solid black;
+  min-height: 30px;
+}
+
+.op {
+  padding-top: 12px;
+}
+
+#ans-input {
+  width: 98%;
+  height: 100px;
+  border: 2px solid black;
+  font-size: 60px;
+  margin-bottom: 40px;
+  padding-left: 8px;
+}
+
+.tmargin {
+  margin-top: 20px;
+}
+
+.lfont {
+  font-size: 1.1em;
+}
+
+.well {
+  height: 180px;
+}
+
+.small {
+  font-size: 0.8em;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = "utf-8">
+  <title>Some simple maths</title>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="main.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+	<link rel="stylesheet"  type="text/css" href="styles.css" />
+
+</head>
+<body>
+<div class="container">
+  <h1>Try some simple maths</h1>
+  <p class ="lfont">Click on <strong>NEW PROBLEM</strong> to start.<br> If you get a division
+    problem please round your answer to <em>two</em> decimal places.<br>
+    Try as many problems as you like (get some wrong to check the logic!)<br>
+    Each session is self-contained, but you can try as many problems as you want.
+  </p>
+  <div class="row">
+    <div class="col-md-6">
+      <button class="btn btn-info" id="try">NEW PROBLEM</button>
+      <button class ="btn btn-primary" id="submit">SUBMIT ANSWER</button>
+      <button class ="btn btn-warning" id="clear">END SESSION</button>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="well col-xs-12">
+      <div class="col-xs-2 left-num text-center tmargin">
+      </div>
+      <div class="col-xs-2 op text-center tmargin">
+        <!--<img id="op">-->
+      </div>
+      <div class="col-xs-2 right-num text-center tmargin">
+      </div>
+      <div class="col-xs-2 tmargin">
+        <img src="equals.png">
+      </div>
+      <div class="col-xs-4 ans">
+        <p class="small"><em><strong>PUT ANSWER BELOW</strong></em></p>
+        <input id = "ans-input" type="text"/>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2 lfont" id="feedback">
+    </div>
+  </div>
+</div>
+</body>
+</html>
